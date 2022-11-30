@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9264F18E28F7980300FDD5C9 /* Prime_SocietyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9264F18D28F7980300FDD5C9 /* Prime_SocietyApp.swift */; };
+		9264F19028F7980300FDD5C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9264F18F28F7980300FDD5C9 /* ContentView.swift */; };
+		9264F19228F7980400FDD5C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9264F19128F7980400FDD5C9 /* Assets.xcassets */; };
+		9264F19528F7980400FDD5C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9264F19428F7980400FDD5C9 /* Preview Assets.xcassets */; };
+		9264F19F28F798A300FDD5C9 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9264F19E28F798A300FDD5C9 /* CartView.swift */; };
+		9264F1A128F798C900FDD5C9 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9264F1A028F798C900FDD5C9 /* ProductCard.swift */; };
+		9264F1A328F798DE00FDD5C9 /* Carrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9264F1A228F798DE00FDD5C9 /* Carrito.swift */; };
+		9264F1A528F798FB00FDD5C9 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9264F1A428F798FB00FDD5C9 /* ProductRow.swift */; };
+		9264F1A728F7992900FDD5C9 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9264F1A628F7992900FDD5C9 /* Products.swift */; };
+		9264F1A928F7994100FDD5C9 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9264F1A828F7994100FDD5C9 /* CartManager.swift */; };
+		92D26BBD293092CB00CB3DE6 /* Pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D26BBC293092CB00CB3DE6 /* Pay.swift */; };
+		92D26BBF2930957B00CB3DE6 /* PaymentaHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D26BBE2930957B00CB3DE6 /* PaymentaHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9264F18A28F7980300FDD5C9 /* Prime Society.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prime Society.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9264F18D28F7980300FDD5C9 /* Prime_SocietyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_SocietyApp.swift; sourceTree = "<group>"; };
+		9264F18F28F7980300FDD5C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9264F19128F7980400FDD5C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9264F19428F7980400FDD5C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9264F19E28F798A300FDD5C9 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		9264F1A028F798C900FDD5C9 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		9264F1A228F798DE00FDD5C9 /* Carrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carrito.swift; sourceTree = "<group>"; };
+		9264F1A428F798FB00FDD5C9 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		9264F1A628F7992900FDD5C9 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		9264F1A828F7994100FDD5C9 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		92D26BBC293092CB00CB3DE6 /* Pay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay.swift; sourceTree = "<group>"; };
+		92D26BBE2930957B00CB3DE6 /* PaymentaHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentaHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9264F18728F7980300FDD5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9264F18128F7980200FDD5C9 = {
+			isa = PBXGroup;
+			children = (
+				9264F18C28F7980300FDD5C9 /* Prime Society */,
+				9264F18B28F7980300FDD5C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9264F18B28F7980300FDD5C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9264F18A28F7980300FDD5C9 /* Prime Society.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9264F18C28F7980300FDD5C9 /* Prime Society */ = {
+			isa = PBXGroup;
+			children = (
+				9264F18D28F7980300FDD5C9 /* Prime_SocietyApp.swift */,
+				9264F19B28F7982E00FDD5C9 /* Views */,
+				9264F19C28F7983500FDD5C9 /* Components */,
+				9264F19D28F7983E00FDD5C9 /* Products */,
+				9264F19128F7980400FDD5C9 /* Assets.xcassets */,
+				9264F19328F7980400FDD5C9 /* Preview Content */,
+				9264F1A828F7994100FDD5C9 /* CartManager.swift */,
+				92D26BBE2930957B00CB3DE6 /* PaymentaHandler.swift */,
+			);
+			path = "Prime Society";
+			sourceTree = "<group>";
+		};
+		9264F19328F7980400FDD5C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9264F19428F7980400FDD5C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9264F19B28F7982E00FDD5C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9264F18F28F7980300FDD5C9 /* ContentView.swift */,
+				9264F19E28F798A300FDD5C9 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9264F19C28F7983500FDD5C9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9264F1A028F798C900FDD5C9 /* ProductCard.swift */,
+				9264F1A228F798DE00FDD5C9 /* Carrito.swift */,
+				9264F1A428F798FB00FDD5C9 /* ProductRow.swift */,
+				92D26BBC293092CB00CB3DE6 /* Pay.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9264F19D28F7983E00FDD5C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9264F1A628F7992900FDD5C9 /* Products.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9264F18928F7980300FDD5C9 /* Prime Society */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9264F19828F7980400FDD5C9 /* Build configuration list for PBXNativeTarget "Prime Society" */;
+			buildPhases = (
+				9264F18628F7980300FDD5C9 /* Sources */,
+				9264F18728F7980300FDD5C9 /* Frameworks */,
+				9264F18828F7980300FDD5C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prime Society";
+			productName = "Prime Society";
+			productReference = 9264F18A28F7980300FDD5C9 /* Prime Society.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9264F18228F7980300FDD5C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9264F18928F7980300FDD5C9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9264F18528F7980300FDD5C9 /* Build configuration list for PBXProject "Prime Society" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9264F18128F7980200FDD5C9;
+			productRefGroup = 9264F18B28F7980300FDD5C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9264F18928F7980300FDD5C9 /* Prime Society */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9264F18828F7980300FDD5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9264F19528F7980400FDD5C9 /* Preview Assets.xcassets in Resources */,
+				9264F19228F7980400FDD5C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9264F18628F7980300FDD5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9264F1A328F798DE00FDD5C9 /* Carrito.swift in Sources */,
+				9264F1A928F7994100FDD5C9 /* CartManager.swift in Sources */,
+				9264F19F28F798A300FDD5C9 /* CartView.swift in Sources */,
+				92D26BBD293092CB00CB3DE6 /* Pay.swift in Sources */,
+				9264F1A528F798FB00FDD5C9 /* ProductRow.swift in Sources */,
+				9264F1A728F7992900FDD5C9 /* Products.swift in Sources */,
+				9264F19028F7980300FDD5C9 /* ContentView.swift in Sources */,
+				92D26BBF2930957B00CB3DE6 /* PaymentaHandler.swift in Sources */,
+				9264F18E28F7980300FDD5C9 /* Prime_SocietyApp.swift in Sources */,
+				9264F1A128F798C900FDD5C9 /* ProductCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9264F19628F7980400FDD5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9264F19728F7980400FDD5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9264F19928F7980400FDD5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prime Society/Preview Content\"";
+				DEVELOPMENT_TEAM = R4WY72CR6M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prime-Society";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9264F19A28F7980400FDD5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prime Society/Preview Content\"";
+				DEVELOPMENT_TEAM = R4WY72CR6M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prime-Society";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9264F18528F7980300FDD5C9 /* Build configuration list for PBXProject "Prime Society" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9264F19628F7980400FDD5C9 /* Debug */,
+				9264F19728F7980400FDD5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9264F19828F7980400FDD5C9 /* Build configuration list for PBXNativeTarget "Prime Society" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9264F19928F7980400FDD5C9 /* Debug */,
+				9264F19A28F7980400FDD5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9264F18228F7980300FDD5C9 /* Project object */;
+}
